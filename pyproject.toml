@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kagamine-rin-codex-pet"
+version = "0.1.0"
+description = "A Kagamine Rin Codex v2 pet with privacy-safe session trace replay."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "KanadeK", email = "121669563+KanadeK@users.noreply.github.com" },
+]
+dependencies = ["Pillow>=10.0,<13"]
+keywords = [
+  "codex",
+  "codex-pet",
+  "desktop-pet",
+  "kagamine-rin",
+  "piapro",
+  "sprite",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://kanadek.github.io/kagamine-rin-codex-pet/"
+Repository = "https://github.com/KanadeK/kagamine-rin-codex-pet"
+Issues = "https://github.com/KanadeK/kagamine-rin-codex-pet/issues"
+
+[project.scripts]
+rin-pet = "rin_pet.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rin_pet*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["S603", "S607"]
+
+[tool.coverage.run]
+branch = true
+source = ["rin_pet"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true

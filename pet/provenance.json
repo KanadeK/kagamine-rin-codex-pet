@@ -1,0 +1,266 @@
+{
+  "artworkMethod": "New fan depiction generated with OpenAI built-in image generation and assembled with the deterministic Hatch Pet v2 pipeline.",
+  "assetLicense": "Piapro Character License (PCL)",
+  "assetLicenseUrl": "https://piapro.jp/license/pcl",
+  "character": "Kagamine Rin / 鏡音リン",
+  "characterGuidelineUrl": "https://piapro.jp/license/character_guideline",
+  "characterManager": "Crypton Future Media, Inc.",
+  "createdAt": "2026-07-30",
+  "generationInputs": [
+    {
+      "bytes": 1426638,
+      "path": "artwork/source/canonical-base.png",
+      "sha256": "97c6934992c28dabf64b453eb19636ef76e3cee5e24cbe57a8bb2f6bcf42babc"
+    },
+    {
+      "bytes": 1561,
+      "path": "artwork/source/generation-manifest.json",
+      "sha256": "bec2b2548919c71995c7c768c2d10bad5a90e7b04e2349a224ee696cef6c5d1d"
+    },
+    {
+      "bytes": 2355,
+      "path": "artwork/source/layout-guides/failed.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "bytes": 1942,
+      "path": "artwork/source/layout-guides/idle.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545"
+    },
+    {
+      "bytes": 1740,
+      "path": "artwork/source/layout-guides/jumping.png",
+      "sha256": "dd6f193a159ae50013b1c4368d9a02ab29bdffaa48fa978a9628801cfd0a0a29"
+    },
+    {
+      "bytes": 1522,
+      "path": "artwork/source/layout-guides/look-cardinals.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002"
+    },
+    {
+      "bytes": 2355,
+      "path": "artwork/source/layout-guides/look-row-10.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "bytes": 2355,
+      "path": "artwork/source/layout-guides/look-row-9.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "bytes": 1942,
+      "path": "artwork/source/layout-guides/review.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545"
+    },
+    {
+      "bytes": 2355,
+      "path": "artwork/source/layout-guides/running-left.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "bytes": 2355,
+      "path": "artwork/source/layout-guides/running-right.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "bytes": 1942,
+      "path": "artwork/source/layout-guides/running.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545"
+    },
+    {
+      "bytes": 1942,
+      "path": "artwork/source/layout-guides/waiting.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545"
+    },
+    {
+      "bytes": 1522,
+      "path": "artwork/source/layout-guides/waving.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002"
+    },
+    {
+      "bytes": 3487,
+      "path": "artwork/source/look-mechanics.md",
+      "sha256": "286828f52c0f6e52e89533c43bffb192d9d264908bf0bd7be6f2764f4ec01e3a"
+    },
+    {
+      "bytes": 8233,
+      "path": "artwork/source/pet-request.json",
+      "sha256": "a6b7226f2a4474ae8f12c45850a065f6c0deed4d2a5665f3f8ce649624c97f16"
+    },
+    {
+      "bytes": 1407,
+      "path": "artwork/source/prompts/base-pet.md",
+      "sha256": "dce85ab77d5da09a81679fe440ee9b77923811721e427846618f3b0b087b46e2"
+    },
+    {
+      "bytes": 850,
+      "path": "artwork/source/prompts/look-anchor-repairs/000.md",
+      "sha256": "bc22bd13d946a3b2d80f19fe69529d07644364ebc85d2b84438e9d4d1a5e35ff"
+    },
+    {
+      "bytes": 867,
+      "path": "artwork/source/prompts/look-anchor-repairs/090.md",
+      "sha256": "1db8604112a1e218be51b5057af2a47aa6be050b0b49a8e18411359a7ffe7ab6"
+    },
+    {
+      "bytes": 855,
+      "path": "artwork/source/prompts/look-anchor-repairs/180.md",
+      "sha256": "949df8574b40697fb3dfc8f4a232fae5d8d3e4d2edbb568c6e1a350050aabf5c"
+    },
+    {
+      "bytes": 865,
+      "path": "artwork/source/prompts/look-anchor-repairs/270.md",
+      "sha256": "636f71160911c031514c40a011fe4ea99d8648dad12dbaeabbba2a85ec568978"
+    },
+    {
+      "bytes": 1434,
+      "path": "artwork/source/prompts/look-cardinals.md",
+      "sha256": "d7ca5a3937960e46f0b0cf71494c0f2deb6588228519e70a289ffaf5233190c6"
+    },
+    {
+      "bytes": 1601,
+      "path": "artwork/source/prompts/row-retries/failed.md",
+      "sha256": "63ea3b9d0f6689524e8eafecc5a648ff9bc40d37f5b4edc8b482322dbd89a7a6"
+    },
+    {
+      "bytes": 2137,
+      "path": "artwork/source/prompts/row-retries/idle.md",
+      "sha256": "8a897bd2a678c1d0fc8db49073065e803343c89b45e3a9babd0b2604ad139391"
+    },
+    {
+      "bytes": 1599,
+      "path": "artwork/source/prompts/row-retries/jumping.md",
+      "sha256": "2d3f7c74958abed33d0691e1e4adb2c2b0bcbcad3c00280716b0717089a44d13"
+    },
+    {
+      "bytes": 2706,
+      "path": "artwork/source/prompts/row-retries/look-row-10-attempt-3.md",
+      "sha256": "b1ac060794fafbe0c44bdec042db94096d56984e534ee8be467db7de22a21eba"
+    },
+    {
+      "bytes": 4946,
+      "path": "artwork/source/prompts/row-retries/look-row-10.md",
+      "sha256": "07d2e5f7098ae81d0b225250fe023c4f6758531a711bcd0bcb030f07542242a3"
+    },
+    {
+      "bytes": 3573,
+      "path": "artwork/source/prompts/row-retries/look-row-9.md",
+      "sha256": "3f5cf17eefdd1da57f302176b18c80984b57124793ce79c48fe13b06e8e843b4"
+    },
+    {
+      "bytes": 1485,
+      "path": "artwork/source/prompts/row-retries/review.md",
+      "sha256": "0afea4c8e9cbee6304ad118f5b0b21f232b1c108b04cf7ab0a59eb174c9bbe86"
+    },
+    {
+      "bytes": 1591,
+      "path": "artwork/source/prompts/row-retries/running-left.md",
+      "sha256": "db1249b893b05be4a6d9ad847ba5129e6161e1bacd2330910672245198d79218"
+    },
+    {
+      "bytes": 1596,
+      "path": "artwork/source/prompts/row-retries/running-right.md",
+      "sha256": "59aedb37e085573eca50c80a9dfc851f7489564e3758f0053eef93a0f0fe7ba5"
+    },
+    {
+      "bytes": 1830,
+      "path": "artwork/source/prompts/row-retries/running.md",
+      "sha256": "5ccf4c91e61b1db962f88f55ea04c52fe8ba3ef4035da655d9172e7da5e1ed39"
+    },
+    {
+      "bytes": 1396,
+      "path": "artwork/source/prompts/row-retries/waiting.md",
+      "sha256": "1b175bc004c7009e4a351ef6857c18c6062a85eb239e2e5a8240e4a27e4075c5"
+    },
+    {
+      "bytes": 1408,
+      "path": "artwork/source/prompts/row-retries/waving.md",
+      "sha256": "41b33f21455c5377e07ef9260b13cbc07659dc82c8fa77b5cfeabe9775ec2f77"
+    },
+    {
+      "bytes": 2500,
+      "path": "artwork/source/prompts/rows/failed.md",
+      "sha256": "79730e756a23d02056ecc6227b08e1a0dda116d3302ce6e5295d1c103685b34e"
+    },
+    {
+      "bytes": 3036,
+      "path": "artwork/source/prompts/rows/idle.md",
+      "sha256": "3c60bdaa80b59e54de2fcd8750dc142f69e8a3d11eb56faf222c2a3606c9b7c8"
+    },
+    {
+      "bytes": 2498,
+      "path": "artwork/source/prompts/rows/jumping.md",
+      "sha256": "e30173e8fc825b0d59fdb4debf24ea18c3827f879ac4144ab05fa64307e9a6c7"
+    },
+    {
+      "bytes": 4765,
+      "path": "artwork/source/prompts/rows/look-row-10.md",
+      "sha256": "bc3e247afe4d9431a026c91fb9503ece2a9339931a87b68dcb01fc0df17eea85"
+    },
+    {
+      "bytes": 4695,
+      "path": "artwork/source/prompts/rows/look-row-9.md",
+      "sha256": "4da751f01c4e0bc8436dedead1c113d113485c8fb60d5109616bf8251cd3f3e9"
+    },
+    {
+      "bytes": 2384,
+      "path": "artwork/source/prompts/rows/review.md",
+      "sha256": "29da966a6037d788ac29b1dd46e495025b92aed6ee7283a17fa8d6043a3a8a7c"
+    },
+    {
+      "bytes": 2490,
+      "path": "artwork/source/prompts/rows/running-left.md",
+      "sha256": "71410db57ab6e8ce78b9d363d4753184ae529d194d7284d9a355cf2eb40fb49c"
+    },
+    {
+      "bytes": 2495,
+      "path": "artwork/source/prompts/rows/running-right.md",
+      "sha256": "c9d3553b84433da85655247d5b183c3b7865fb7f3f834e19de1919ed46c8d2d1"
+    },
+    {
+      "bytes": 2729,
+      "path": "artwork/source/prompts/rows/running.md",
+      "sha256": "a4bee5cfa9543bca55574c35b372b9a7f3151636954418ef7499efcfeeb8dac8"
+    },
+    {
+      "bytes": 2295,
+      "path": "artwork/source/prompts/rows/waiting.md",
+      "sha256": "2ca620931244c00979e33ffba55d5b4eeb0be5291df1ec209e1698e7255e3829"
+    },
+    {
+      "bytes": 2307,
+      "path": "artwork/source/prompts/rows/waving.md",
+      "sha256": "03b3d27b71d88cdda7fbbe6324b29fcb85308b3477019f78a982db71b17756af"
+    },
+    {
+      "bytes": 686,
+      "path": "artwork/source/README.md",
+      "sha256": "6e8705d5d9addd8a5a9ba5c3ac9ea6ddde0e22365d25cf8ba0f1a093d8438db0"
+    }
+  ],
+  "officialAssetsIncluded": false,
+  "petId": "kagamine-rin",
+  "qualityEvidence": [
+    "artwork/qa/atlas-validation.json",
+    "artwork/qa/direction-semantics.json",
+    "artwork/qa/direction-blind-validation.json",
+    "artwork/qa/look-continuity.json",
+    "artwork/qa/final-visual-qa.json"
+  ],
+  "schemaVersion": 1,
+  "spriteContract": {
+    "cellHeight": 208,
+    "cellWidth": 192,
+    "columns": 8,
+    "lookDirections": 16,
+    "neutralLookFrame": {
+      "column": 6,
+      "row": 0
+    },
+    "rows": 11,
+    "transparentPaddingCells": 14,
+    "usedCells": 74,
+    "version": 2
+  },
+  "thirdPartyFanArtIncluded": false
+}

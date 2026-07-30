@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for Codex pet Kagamine Rin.
+
+Pet identity: Existing Piapro Character Kagamine Rin in an energetic compact chibi form: blonde bob, enormous white hair bow, bright cyan eyes, white sailor-inspired sleeveless top with a yellow neckerchief, black shorts, charcoal arm warmers and boots with yellow accents. Preserve her recognizable orange-yellow-white-black palette. No voice, audio, official image copying, logos, numbers, readable text, microphone, detached props, floating effects, or scenery..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Crisp anime sticker sprite, dark clean outline, flat cel shading, whole body readable at 192x208, consistent proportions, expressive but uncluttered..
+
+
+Place a single centered pose on a perfectly flat pure magenta #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #FF00FF and close colors out of the pet, props, highlights, and effects.

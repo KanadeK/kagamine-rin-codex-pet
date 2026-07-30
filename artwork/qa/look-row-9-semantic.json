@@ -1,0 +1,22 @@
+{
+  "overall": "pass",
+  "directions": {
+    "000": "pass",
+    "022.5": "pass",
+    "045": "pass",
+    "067.5": "pass",
+    "090": "pass",
+    "112.5": "pass",
+    "135": "pass",
+    "157.5": "pass"
+  },
+  "horizontal_evidence": "Pupils, nose, and face yaw progress monotonically from centered/up at 000 through increasingly screen-right at 022.5-090, then ease back toward center across 112.5-157.5 without reversal; 090 matches the approved right anchor.",
+  "vertical_evidence": "Eyes begin clearly high at 000, remain upward through 067.5, transition after 090, and become progressively lower through 112.5-157.5; 157.5 reads as down-right and plausibly precedes the approved 180-down anchor.",
+  "reason": "All eight registered 192x208 cells are present, coherent, and clockwise. Rin's identity, cyan eyes, viewer-right pouch, scale, and boot baseline remain stable; no visible clipping, guide marks, detached artifacts, or registration pop.",
+  "continuity": {
+    "verdict": "pass",
+    "reason": "Adjacent poses form a smooth up-to-right-to-down-right arc; 157.5 is a credible final interpolation step before approved 180 down."
+  },
+  "required_repairs": [],
+  "confidence": 0.94
+}

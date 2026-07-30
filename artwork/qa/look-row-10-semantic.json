@@ -1,0 +1,22 @@
+{
+  "overall": "warning",
+  "directions": {
+    "180": "pass",
+    "202.5": "pass",
+    "225": "pass",
+    "247.5": "pass",
+    "270": "pass",
+    "292.5": "pass",
+    "315": "pass",
+    "337.5": "pass"
+  },
+  "horizontal_evidence": "202.5-247.5 progressively shifts pupils, nose, face plane, and compressed cheek toward screen-left; 270 is unmistakably screen-left; 292.5-337.5 retains a diminishing left component without reversal.",
+  "vertical_evidence": "180 is broadly frontal with pupils lower than neutral and a slight chin tuck; the downward component decreases through 202.5-247.5, becomes level at 270, then increases upward through 292.5-337.5 via pupils, chin, and face pitch.",
+  "continuity": {
+    "verdict": "warning",
+    "reason": "157.5-to-180 is visually smooth with near-equal area and only a 4.03 px center shift; 337.5-to-000 preserves direction and identity but the 1.158 area ratio creates a mild silhouette expansion at loop closure despite only a 4.27 px center shift."
+  },
+  "reason": "All eight row 10 directions read in the required clockwise order with stable Kagamine Rin identity, asymmetric details, baseline, and broadly consistent scale; only the 337.5-to-000 closure has a minor size-pop warning.",
+  "required_repairs": [],
+  "confidence": 0.91
+}

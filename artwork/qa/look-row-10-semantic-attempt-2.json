@@ -1,0 +1,50 @@
+{
+  "overall": "fail",
+  "directions": {
+    "180": {
+      "verdict": "pass",
+      "observed": "down"
+    },
+    "202.5": {
+      "verdict": "fail",
+      "observed": "down-right"
+    },
+    "225": {
+      "verdict": "fail",
+      "observed": "down-right"
+    },
+    "247.5": {
+      "verdict": "fail",
+      "observed": "down-right"
+    },
+    "270": {
+      "verdict": "fail",
+      "observed": "screen-right"
+    },
+    "292.5": {
+      "verdict": "fail",
+      "observed": "up-right"
+    },
+    "315": {
+      "verdict": "fail",
+      "observed": "up-right"
+    },
+    "337.5": {
+      "verdict": "fail",
+      "observed": "up-right"
+    }
+  },
+  "horizontal_evidence": "From 202.5 through 337.5 the pupils, nose, mouth, face plane, and hair silhouette advance toward screen-right; 270 is an unmistakable screen-right profile, so the entire required screen-left half is horizontally reversed.",
+  "vertical_evidence": "180 reads down; 202.5-247.5 retain a generally lowered gaze and 292.5-337.5 rise, so the vertical progression is broadly present but cannot rescue the wrong quadrants.",
+  "continuity": {
+    "verdict": "fail",
+    "reason": "157.5-to-180 is visually acceptable in scale, baseline, face, and hair-clip identity, consistent with area 1.023 and 2.1 px center shift. The 337.5-to-000 geometry is only moderately discontinuous at area 1.20 and center 6.6 px, but semantic closure fails because 337.5 approaches up from screen-right instead of screen-left, producing a wrong-side reversal into 000."
+  },
+  "reason": "Row 10 is not a valid clockwise left-half continuation: seven of eight poses use the opposite horizontal direction.",
+  "required_repairs": [
+    "Regenerate the complete coherent row 10; do not patch individual cells.",
+    "Lock 202.5-247.5 to down-left, 270 to unmistakable screen-left, and 292.5-337.5 to up-left using screen-coordinate pupils, nose, mouth, cheek compression, and face yaw.",
+    "Preserve the acceptable 157.5-to-180 registration and tighten 337.5-to-000 scale and center continuity while keeping hair clips and asymmetric details on their approved sides."
+  ],
+  "confidence": 0.99
+}

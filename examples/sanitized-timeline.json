@@ -1,0 +1,91 @@
+{
+  "events": [
+    {
+      "durationMs": 1000,
+      "kind": "turn_context",
+      "offsetMs": 0,
+      "sourceLine": 1,
+      "state": "running"
+    },
+    {
+      "durationMs": 1000,
+      "kind": "user_message",
+      "offsetMs": 1000,
+      "sourceLine": 2,
+      "state": "idle"
+    },
+    {
+      "durationMs": 1000,
+      "kind": "reasoning",
+      "offsetMs": 2000,
+      "sourceLine": 3,
+      "state": "running"
+    },
+    {
+      "durationMs": 1000,
+      "kind": "tool_call",
+      "offsetMs": 3000,
+      "sourceLine": 4,
+      "state": "running"
+    },
+    {
+      "durationMs": 2000,
+      "kind": "tool_result",
+      "offsetMs": 4000,
+      "sourceLine": 5,
+      "state": "running"
+    },
+    {
+      "durationMs": 2000,
+      "kind": "approval_request",
+      "offsetMs": 6000,
+      "sourceLine": 6,
+      "state": "waiting"
+    },
+    {
+      "durationMs": 2000,
+      "kind": "assistant_message",
+      "offsetMs": 8000,
+      "sourceLine": 7,
+      "state": "review"
+    },
+    {
+      "durationMs": 2000,
+      "kind": "error",
+      "offsetMs": 10000,
+      "sourceLine": 8,
+      "state": "failed"
+    },
+    {
+      "durationMs": 1000,
+      "kind": "task_complete",
+      "offsetMs": 12000,
+      "sourceLine": 9,
+      "state": "jumping"
+    },
+    {
+      "durationMs": 1300,
+      "kind": "assistant_final",
+      "offsetMs": 13000,
+      "sourceLine": 10,
+      "state": "jumping"
+    }
+  ],
+  "redaction": {
+    "discarded": [
+      "message text",
+      "prompt text",
+      "tool arguments",
+      "tool output",
+      "file paths",
+      "account data"
+    ],
+    "mode": "metadata-only"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "byteCount": 1234,
+    "recordCount": 10,
+    "sha256": "bb479a040af5d62d04509633f7c152a0eaad9eb40ff8966383176f64108e8302"
+  }
+}

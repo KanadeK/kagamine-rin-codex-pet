@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "algorithm": "project-chroma-residue-to-transparent",
+  "key": "#FF00FF",
+  "euclideanDistanceMax": 96,
+  "passes": [
+    {
+      "changedPixels": 13,
+      "scope": "exact project validator threshold"
+    },
+    {
+      "changedPixels": 20,
+      "scope": "remaining key-distance residue"
+    }
+  ],
+  "totalChangedPixels": 33,
+  "replacementRgba": [0, 0, 0, 0],
+  "finalOpaqueChromaKeyPixels": 0,
+  "finalChromaFringePixels": 0,
+  "finalTransparentRgbResiduePixels": 0
+}

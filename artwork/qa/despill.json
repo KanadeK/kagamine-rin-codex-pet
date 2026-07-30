@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "key": "#FF00FF",
+  "strength": 1,
+  "edgeRadius": 5,
+  "changedPixels": 140869,
+  "decontaminatedPixels": 128263,
+  "spillSuppressedPixels": 140869,
+  "rejectedPixels": 0,
+  "alphaPreserved": true
+}

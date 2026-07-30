@@ -1,0 +1,22 @@
+{
+  "overall": "pass",
+  "standard_rows": {
+    "idle": "pass: six-frame blink/bob loop is clean and stable",
+    "running-right": "pass: eight-frame rightward gait is complete, readable, and smoothly looped",
+    "running-left": "pass: eight-frame leftward gait is complete, readable, and smoothly looped",
+    "waving": "pass: four-frame wave is clear and returns cleanly to neutral",
+    "jumping": "pass: five-frame crouch-rise-apex-land sequence is coherent and stable",
+    "failed": "pass: eight-frame slump cycle is complete and loops without a material pop",
+    "waiting": "pass: six-frame expectant gesture cycle is distinct and stable",
+    "running": "pass: six-frame working/thinking cycle is readable, non-locomotive, and stable",
+    "review": "pass: six-frame hand-to-chin review cycle is readable and complete"
+  },
+  "directions": "pass",
+  "identity": "pass",
+  "layout": "pass",
+  "transparency": "pass",
+  "warnings": [],
+  "required_repairs": [],
+  "reason": "The current 8x11 atlas, rebuilt contact and direction sheets, and all nine regenerated GIF previews are visually clean, complete, consistently registered, and free of magenta halo or crop defects. All 16 clockwise look directions remain semantically readable; the three-reviewer blind gate confirms every comparison, and the continuity tool's interior-hole and boundary-difference notices are visually benign bow and hair gaps and expected pose transitions. The deterministic residue scrub is recorded as successful, and strict validation reports zero opaque key pixels, zero chroma fringe pixels, zero transparent-RGB residue, zero errors, and zero warnings. No current defect requires repair before packaging.",
+  "confidence": 0.99
+}

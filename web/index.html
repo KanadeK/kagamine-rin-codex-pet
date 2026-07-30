@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Offline Kagamine Rin Codex v2 pet and privacy-safe session trace replay."
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Kagamine Rin · Codex Pet Stage</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="wordmark" href="#stage" aria-label="Jump to pet stage">
+        <span class="signal-dot"></span>
+        RIN<span>/TRACE</span>
+      </a>
+      <p id="load-status" role="status">Loading local atlas and timeline…</p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow">CODEX V2 PET · 11 ROWS · 74 CELLS</p>
+          <h1>A coding session,<br /><em>without the secrets.</em></h1>
+        </div>
+        <p class="lede">
+          A complete Kagamine Rin fan pet and a real JSONL-to-animation
+          pipeline. RinTrace drops message bodies, tool payloads, paths, and
+          account data before this stage ever sees them.
+        </p>
+      </section>
+
+      <section id="stage" class="stage" aria-labelledby="stage-title">
+        <div class="stage-copy">
+          <p class="eyebrow">LIVE ATLAS</p>
+          <h2 id="stage-title">Point around Rin to test all 16 look directions.</h2>
+          <p>
+            Current state: <strong id="state-label">idle</strong><br />
+            <span id="event-label">waiting for local assets</span>
+          </p>
+          <div class="transport" aria-label="Trace playback controls">
+            <button id="play" type="button" aria-pressed="true">Pause trace</button>
+            <label>
+              Speed
+              <select id="speed">
+                <option value="0.5">0.5×</option>
+                <option value="1" selected>1×</option>
+                <option value="2">2×</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="pet-well">
+          <canvas
+            id="pet-canvas"
+            width="192"
+            height="208"
+            role="img"
+            aria-label="Kagamine Rin pet loading"
+          ></canvas>
+          <span class="baseline" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="states" aria-labelledby="states-title">
+        <div>
+          <p class="eyebrow">MANUAL OVERRIDE</p>
+          <h2 id="states-title">Nine animations, not nine screenshots.</h2>
+        </div>
+        <div class="state-grid">
+          <button data-state="idle" type="button" aria-pressed="false">Idle</button>
+          <button data-state="running-right" type="button" aria-pressed="false">Run →</button>
+          <button data-state="running-left" type="button" aria-pressed="false">← Run</button>
+          <button data-state="waving" type="button" aria-pressed="false">Wave</button>
+          <button data-state="jumping" type="button" aria-pressed="false">Ready</button>
+          <button data-state="failed" type="button" aria-pressed="false">Blocked</button>
+          <button data-state="waiting" type="button" aria-pressed="false">Needs input</button>
+          <button data-state="running" type="button" aria-pressed="false">Working</button>
+          <button data-state="review" type="button" aria-pressed="false">Review</button>
+        </div>
+      </section>
+
+      <section class="trace" aria-labelledby="trace-title">
+        <div class="trace-heading">
+          <div>
+            <p class="eyebrow">SANITIZED TIMELINE</p>
+            <h2 id="trace-title">Metadata in. Character states out.</h2>
+          </div>
+          <p>
+            Each item retains only an allow-listed event kind, source line,
+            relative time, and animation state.
+          </p>
+        </div>
+        <ol id="timeline-list" class="timeline-list"></ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Unofficial non-commercial fan work under the
+        <a href="https://piapro.jp/license/pcl">Piapro Character License</a>.
+        No official artwork, voice, song, or game asset is included.
+      </p>
+    </footer>
+
+    <script type="module" src="./app.mjs"></script>
+  </body>
+</html>

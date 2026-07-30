@@ -1,0 +1,10 @@
+{"type":"turn_context","timestamp":"2026-07-30T10:00:00.000Z","workspace":"PRIVATE_PATH_MUST_DISAPPEAR","account":"private@example.invalid"}
+{"type":"user_message","timestamp":"2026-07-30T10:00:01.000Z","content":"PRIVATE_USER_MESSAGE_MUST_DISAPPEAR"}
+{"type":"response_item","timestamp":"2026-07-30T10:00:02.000Z","payload":{"item":{"type":"reasoning","summary":"PRIVATE_REASONING_MUST_DISAPPEAR"}}}
+{"type":"tool_call","timestamp":"2026-07-30T10:00:03.000Z","name":"shell","arguments":{"command":"PRIVATE_COMMAND_MUST_DISAPPEAR","path":"PRIVATE_TOOL_PATH_MUST_DISAPPEAR"}}
+{"type":"tool_result","timestamp":"2026-07-30T10:00:04.000Z","output":"PRIVATE_TOOL_OUTPUT_MUST_DISAPPEAR"}
+{"type":"approval_request","timestamp":"2026-07-30T10:00:06.000Z","question":"PRIVATE_APPROVAL_TEXT_MUST_DISAPPEAR"}
+{"type":"assistant_message","timestamp":"2026-07-30T10:00:08.000Z","content":"PRIVATE_REVIEW_TEXT_MUST_DISAPPEAR"}
+{"type":"error","timestamp":"2026-07-30T10:00:10.000Z","message":"PRIVATE_ERROR_TEXT_MUST_DISAPPEAR"}
+{"type":"task_complete","timestamp":"2026-07-30T10:00:12.000Z","result":"PRIVATE_RESULT_MUST_DISAPPEAR"}
+{"type":"assistant_final","timestamp":"2026-07-30T10:00:13.000Z","content":"PRIVATE_FINAL_TEXT_MUST_DISAPPEAR"}

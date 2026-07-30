@@ -1,0 +1,28 @@
+{
+  "overall": "pass",
+  "directions": {
+    "000": {
+      "verdict": "pass",
+      "observed": "up/top",
+      "reason": "Frontal face with both pupils set high, a subtly lifted face and chin, and a clear upward gaze; scale and baseline match the other anchors."
+    },
+    "090": {
+      "verdict": "pass",
+      "observed": "screen-right",
+      "reason": "Pupils and facial landmarks shift screen-right with a shallow coherent yaw while both eyes remain readable."
+    },
+    "180": {
+      "verdict": "pass",
+      "observed": "down/bottom",
+      "reason": "Pupils sit low with a slightly tucked face; it reads as looking down rather than closed-eyed or sad."
+    },
+    "270": {
+      "verdict": "pass",
+      "observed": "screen-left",
+      "reason": "Pupils and facial landmarks shift screen-left with the inverse shallow yaw."
+    }
+  },
+  "required_repairs": [],
+  "confidence": 0.93,
+  "reviewer_scope": "Fresh independent review of the repaired 192x208 anchor cells and approved strip."
+}

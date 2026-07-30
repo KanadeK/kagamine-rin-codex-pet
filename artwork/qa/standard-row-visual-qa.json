@@ -1,0 +1,44 @@
+{
+  "overall": "pass",
+  "rows": {
+    "idle": {
+      "verdict": "pass",
+      "reason": "Rin identity is clear; six frames show subtle blink and bob variation."
+    },
+    "running-right": {
+      "verdict": "pass",
+      "reason": "Eight complete right-facing stride frames have alternating gait and stable scale."
+    },
+    "running-left": {
+      "verdict": "pass",
+      "reason": "Eight complete left-facing stride frames have alternating gait and a stable baseline."
+    },
+    "waving": {
+      "verdict": "pass",
+      "reason": "The four-frame hand wave is readable, clean, and free of detached motion effects."
+    },
+    "jumping": {
+      "verdict": "pass",
+      "reason": "The five-frame vertical jump reads clearly with consistent character scale and no floor artifact."
+    },
+    "failed": {
+      "verdict": "pass",
+      "reason": "The repaired eight-frame defeated cycle is visibly animated; 06 to 07 to 00 remains scale-stable with no material pop."
+    },
+    "waiting": {
+      "verdict": "pass",
+      "reason": "Expectant raised-hand poses are distinct from idle and review, with consistent identity."
+    },
+    "running": {
+      "verdict": "pass",
+      "reason": "Focused working and thinking poses are non-locomotive, visibly varied, and stable."
+    },
+    "review": {
+      "verdict": "pass",
+      "reason": "The focused hand-to-chin and head-tilt cycle is readable and preserves Rin identity."
+    }
+  },
+  "required_repairs": [],
+  "confidence": 0.9,
+  "reviewer_scope": "Fresh independent review of the repaired contact sheet and animation previews."
+}

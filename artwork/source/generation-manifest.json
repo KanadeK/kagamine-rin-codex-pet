@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "petId": "kagamine-rin",
+  "createdAt": "2026-07-30",
+  "method": "OpenAI built-in image generation plus deterministic Hatch Pet v2 assembly",
+  "character": "Kagamine Rin / 鏡音リン",
+  "characterManager": "Crypton Future Media, Inc.",
+  "assetLicense": "Piapro Character License (PCL)",
+  "officialAssetsIncluded": false,
+  "thirdPartyFanArtIncluded": false,
+  "canonicalBase": {
+    "path": "artwork/source/canonical-base.png",
+    "sha256": "97c6934992c28dabf64b453eb19636ef76e3cee5e24cbe57a8bb2f6bcf42babc",
+    "bytes": 1426638
+  },
+  "lookRows": {
+    "row9SourceSha256": "11ccd9757f770990beb744c51f574ab633a87eb32157ba14dd3d23d69294e804",
+    "row10AcceptedSourceSha256": "5a21d108d8f305a493be355fc2e10ad19a9252acfd713745c921c28255a59010",
+    "row10Attempts": [
+      {
+        "verdict": "rejected",
+        "reason": "Scale and facial construction changed at both row boundaries."
+      },
+      {
+        "verdict": "rejected",
+        "reason": "Directions 202.5 through 337.5 were horizontally reversed."
+      },
+      {
+        "verdict": "accepted",
+        "reason": "All eight directions passed labeled semantic review and unanimous blind comparison."
+      }
+    ]
+  },
+  "finalAtlas": {
+    "path": "pet/spritesheet.webp",
+    "sha256": "8bf958a9b96ed6bfe098a0353f4eb22797ab3554009ee11d2493262062135d85",
+    "bytes": 2024422,
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "usedCells": 74,
+    "transparentPaddingCells": 14,
+    "neutralLookFrame": {"row": 0, "column": 6}
+  }
+}

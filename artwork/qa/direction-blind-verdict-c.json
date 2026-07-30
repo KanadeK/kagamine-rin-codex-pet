@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair": "horizontal-1", "A": "screen-left", "B": "screen-right", "reason": "Pupils and mouth offset left in A, right in B."},
+    {"pair": "horizontal-2", "A": "screen-right", "B": "screen-left", "reason": "Nose, mouth, and gaze yaw right in A and left in B."},
+    {"pair": "horizontal-3", "A": "screen-right", "B": "screen-left", "reason": "Face profile and pupils point right in A, left in B."},
+    {"pair": "horizontal-4", "A": "screen-left", "B": "screen-right", "reason": "Strong opposing nose and mouth profiles."},
+    {"pair": "horizontal-5", "A": "screen-left", "B": "screen-right", "reason": "Pupils, nose, and open mouth consistently face outward."},
+    {"pair": "horizontal-6", "A": "screen-left", "B": "screen-right", "reason": "Eye placement and cheek-mouth offset show opposing yaw."},
+    {"pair": "horizontal-7", "A": "screen-left", "B": "screen-right", "reason": "Nose, mouth, and pupils align left in A and right in B."},
+    {"pair": "vertical-1", "A": "up", "B": "down", "reason": "A has lifted pupils and raised face pitch; B's gaze and mouth sit lower."},
+    {"pair": "vertical-2", "A": "up", "B": "down", "reason": "A's chin and gaze lift; B's face pitches toward the chest."},
+    {"pair": "vertical-3", "A": "down", "B": "up", "reason": "A lowers pupils and chin; B lifts gaze and mouth angle."},
+    {"pair": "vertical-4", "A": "up", "B": "down", "reason": "A's eyes and open face angle rise; B's pupils and chin lower."},
+    {"pair": "vertical-5", "A": "down", "B": "up", "reason": "A pitches forward with lowered gaze; B looks above the horizon."},
+    {"pair": "vertical-6", "A": "up", "B": "down", "reason": "A's pupils and nose angle upward; B's face and gaze dip."},
+    {"pair": "vertical-7", "A": "down", "B": "up", "reason": "A has lowered pupils and forward pitch; B's pupils and chin lift."}
+  ]
+}

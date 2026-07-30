@@ -1,0 +1,26 @@
+{
+  "overall": "pass",
+  "directions": {
+    "000": {"verdict": "pass", "horizontal": "n/a", "vertical": "Both pupils sit high in the eye openings and the symmetric face is pitched upward."},
+    "022.5": {"verdict": "pass", "horizontal": "Pupils and the nose-mouth axis shift slightly toward screen-right.", "vertical": "Pupils remain high and the chin is lifted."},
+    "045": {"verdict": "pass", "horizontal": "Clear three-quarter yaw toward screen-right, with pupils and nose-mouth placement on that side.", "vertical": "Raised pupils and upward face pitch remain evident."},
+    "067.5": {"verdict": "pass", "horizontal": "Strong screen-right yaw; the visible eye, nose, and mouth aim toward the right edge.", "vertical": "The visible pupil is high and the chin remains raised."},
+    "090": {"verdict": "pass", "horizontal": "Near-profile face points screen-right; nose, mouth, and visible-eye gaze all aim right.", "vertical": "n/a"},
+    "112.5": {"verdict": "pass", "horizontal": "Right-facing profile remains unmistakable from the nose-mouth silhouette and visible eye.", "vertical": "The pupil lowers and the chin begins pitching down."},
+    "135": {"verdict": "pass", "horizontal": "Three-quarter face and pupil placement remain toward screen-right.", "vertical": "Lowered gaze and bowed face clearly read downward."},
+    "157.5": {"verdict": "pass", "horizontal": "A slight screen-right yaw remains in the pupil and nose-mouth offset.", "vertical": "Both gaze and chin are directed downward."},
+    "180": {"verdict": "pass", "horizontal": "n/a", "vertical": "The frontal pupils sit low and the chin and face pitch distinctly downward."},
+    "202.5": {"verdict": "pass", "horizontal": "Pupils and nose-mouth axis shift slightly toward screen-left.", "vertical": "The eyes remain lowered and the chin stays bowed."},
+    "225": {"verdict": "pass", "horizontal": "Clear three-quarter yaw toward screen-left with pupils and facial center displaced left.", "vertical": "Lowered pupils and face pitch read downward."},
+    "247.5": {"verdict": "pass", "horizontal": "Strong screen-left yaw; visible eye, nose, and mouth aim toward the left edge.", "vertical": "The pupil is low and the chin remains dipped."},
+    "270": {"verdict": "pass", "horizontal": "Near-profile face points screen-left; nose, mouth, and visible-eye gaze all aim left.", "vertical": "n/a"},
+    "292.5": {"verdict": "pass", "horizontal": "Left-facing profile remains clear from the nose-mouth silhouette and visible eye.", "vertical": "The pupil rises and the chin begins lifting."},
+    "315": {"verdict": "pass", "horizontal": "Three-quarter face and pupil placement remain toward screen-left.", "vertical": "Raised gaze and upward face pitch are clearly visible."},
+    "337.5": {"verdict": "pass", "horizontal": "A slight screen-left yaw remains in the pupil and nose-mouth offset.", "vertical": "Both pupils are high and the chin is lifted."}
+  },
+  "clockwise_order": "pass",
+  "continuity": "pass",
+  "reason": "The four cardinals are literal and unmistakable in screen coordinates. Intermediate poses progress clockwise through the correct quadrants, with smooth pupil, face-yaw, and pitch changes across both row boundaries, including 157.5-to-180 and 337.5-to-000.",
+  "required_repairs": [],
+  "confidence": 0.95
+}

@@ -1,0 +1,26 @@
+{
+  "overall": "fail",
+  "directions": {
+    "180": "pass",
+    "202.5": "pass",
+    "225": "pass",
+    "247.5": "pass",
+    "270": "pass",
+    "292.5": "pass",
+    "315": "warning",
+    "337.5": "warning"
+  },
+  "horizontal_evidence": "From 202.5 through 270, pupils, nose, mouth, and face plane move progressively toward screen-left; 270 is the strongest left-facing anchor. From 292.5 through 337.5 the left component decreases smoothly while remaining readable.",
+  "vertical_evidence": "180 has low pupils and a tucked chin; the downward component decreases toward 270, then pupils and chin rise progressively from 292.5 through 337.5.",
+  "continuity": {
+    "verdict": "fail",
+    "reason": "Within row 10, separation, cropping, and foot baseline are stable. However, row 10 is visibly smaller than row 9, and both joins snap in scale and facial construction. The 337.5-to-000 automated area and center warning is a real hard visual failure: 337.5 has a substantially smaller head and body silhouette, closed mouth, and altered hair-clip visibility, while 000 abruptly becomes larger with an open mouth and restored clip layout. The common registration scale can align feet but cannot remove this size and area pop. A smaller but still conspicuous shrink and expression jump also occurs at 157.5-to-180."
+  },
+  "reason": "Direction ordering is semantically coherent, the pouch remains viewer-right, and no poses overlap or crop. Packaging must still fail because the complete row changes scale and face and asymmetric hair-detail construction relative to row 9; 315 and 337.5 additionally weaken the established dual hair-clip identity.",
+  "required_repairs": [
+    "Regenerate the complete row 10 as one coherent strip at the same character scale, head-to-body ratio, and face construction as row 9.",
+    "Match mouth treatment and preserve both asymmetric hair-clip groups through 180-337.5, especially at the 157.5-to-180 and 337.5-to-000 joins.",
+    "Retain the current clockwise direction semantics, stable foot baseline, pose separation, and viewer-right pouch."
+  ],
+  "confidence": 0.98
+}

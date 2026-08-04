@@ -42,7 +42,11 @@ def _generation_inputs() -> list[dict[str, object]]:
             "manifest before building pet provenance"
         )
     values = []
-    for path in sorted(item for item in source_root.rglob("*") if item.is_file()):
+    source_files = (item for item in source_root.rglob("*") if item.is_file())
+    for path in sorted(
+        source_files,
+        key=lambda item: item.relative_to(ROOT).as_posix().casefold(),
+    ):
         data = _provenance_bytes(path)
         values.append(
             {

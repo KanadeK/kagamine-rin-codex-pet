@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [
   { name = "KanadeK", email = "121669563+KanadeK@users.noreply.github.com" },
 ]
-dependencies = ["Pillow>=10.0,<13"]
+dependencies = ["Pillow>=10.0,<14"]
 keywords = [
   "codex",
   "codex-pet",
